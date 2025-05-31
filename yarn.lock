@@ -1355,7 +1355,7 @@
   resolved "https://registry.npmjs.org/@primevue/metadata/-/metadata-4.3.4.tgz"
   integrity sha512-jlb7ZQCb27xxZa6bGpHZOIFMUIOdt9lUAFCGG6obkJ/bhZP5nb8XG7kND5giP7Znk90bvVEWgVwuNEQU1Blmkg==
 
-"@primevue/nuxt-module@^4.3.4":
+"@primevue/nuxt-module@4.3.4":
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/@primevue/nuxt-module/-/nuxt-module-4.3.4.tgz#bea827444e7a4c22a37181446870fa9949cacb39"
   integrity sha512-X4pzspaNeR0cmUvJSvcRaPL8cha6bmYBrV4sfRG3MBu865atfg8Y1oMXB059MTZKOy8NPmv63lpOwh+MKVt8uA==
