@@ -7,11 +7,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: [
+    "@primevue/nuxt-module",
     "@nuxt/icon",
     "@pinia/nuxt",
     "@nuxt/image",
     "@nuxt/test-utils",
-    "@primevue/nuxt-module",
   ],
 
   primevue: {
