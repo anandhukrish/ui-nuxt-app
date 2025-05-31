@@ -16,7 +16,6 @@
     "@pinia/nuxt": "^0.11.0",
     "@primeuix/themes": "^1.1.1",
     "@primevue/forms": "^4.3.4",
-    "eslint": "^9.0.0",
     "nuxt": "^3.17.4",
     "pinia": "^3.0.2",
     "primevue": "^4.3.4",
