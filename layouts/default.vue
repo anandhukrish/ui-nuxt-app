@@ -10,10 +10,9 @@
 </template>
 
 <script lang="ts" setup>
-import appConfig from "~/app.config";
 import AppSidebar from "~/components/AppSidebar.vue";
 
-const routes = appConfig.routes || [];
+const routes = useAppConfig().routes || [];
 
 console.log(routes);
 </script>
