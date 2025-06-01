@@ -1,11 +1,15 @@
 <template>
   <ul class="menu-container">
-    <AppMenuItem />
+    <template v-for="(route, index) in routes" :key="index">
+      <AppMenuItem :route />
+    </template>
   </ul>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import AppMenuItem from "./AppMenuItem.vue";
+
+defineProps<{ routes: any[] }>();
 </script>
 
 <style scoped>

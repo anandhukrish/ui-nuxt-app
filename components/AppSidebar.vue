@@ -5,7 +5,7 @@
       <h1 v-if="title">{{ title }}</h1>
     </div>
     <nav>
-      <AppMenu />
+      <AppMenu :routes />
     </nav>
   </aside>
 </template>
@@ -15,6 +15,7 @@ import AppMenu from "./AppMenu.vue";
 defineProps<{
   img?: string;
   title?: string;
+  routes: any[];
 }>();
 </script>
 
